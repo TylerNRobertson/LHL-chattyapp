@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 class Message extends Component {
   render() {
+        const {username, content} = this.props;
     return (
     <div>
       <div className="message">
-        <span className="message-username">Anonymous1</span>
-        <span className="message-content">I won't be impressed with technology until I can download food.</span>
+        <span className="message-username">{username}</span>
+        <span className="message-content">{content}</span>
       </div>
       <div className="message system">
-          Anonymous1 changed their name to nomnom.
       </div>
     </div>
     );
