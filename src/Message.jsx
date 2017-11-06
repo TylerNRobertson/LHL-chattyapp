@@ -9,8 +9,6 @@ class Message extends Component {
         <span className="message-username">{username}</span>
         <span className="message-content">{content}</span>
       </div>
-      <div className="message system">
-      </div>
     </div>
     );
   }
