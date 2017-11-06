@@ -1,45 +1,18 @@
-React Boilerplate
+ChattyApp for LHL
 =====================
 
-A minimal and light dev environment for ReactJS.
+ChattyApp is an application for real time chat with other users. It shows you how many users are online, all the messages along with the usersname (if they have one, if not it just says "anonymous"). ChattyApp is a simple react application.
 
 ### Usage
 
-Clone the boilerplate and create your own git repo.
+To use this application there are only a few simple steps.
 
-```
-git clone git@github.com:lighthouse-labs/react-simple-boilerplate.git
-cd react-simple-boilerplate
-git remote rm origin
-git remote add origin [YOUR NEW REPOSITORY]
-# Manually update your package.json file
-```
+1. Clone this repo into wherever you like.
+2. Do npm install within your terminal to install all the dependencies.
+3. Open a second terminal and navigate to the chatty_server directory.
+4. In both windows (one in chattyApp and one in chatt_server) run "npm start" in both terminals.
+5. Go to your browser and go to http://localhost:3000
+6. Bam your done, now enjoy talking to yourself! :)
 
-Install the dependencies and start the server.
-
-```
-npm install
-npm start
-open http://localhost:3000
-```
-
-### Static Files
-
-You can store static files like images, fonts, etc in the `build` folder.
-
-For example, if you copy a file called my_image.png into the build folder you can access it using `http://localhost:3000/build/my_image.png`.
-
-### Linting
-
-This boilerplate project includes React ESLint configuration.
-
-```
-npm run lint
-```
-
-### Dependencies
-
-* React
-* Webpack
-* [babel-loader](https://github.com/babel/babel-loader)
-* [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+### Screen Shots
+![ChattyApp]("https://github.com/TylerNRobertson/LHL-chattyapp/blob/master/chatty.png")
