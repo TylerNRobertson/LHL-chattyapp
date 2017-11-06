@@ -15,4 +15,4 @@ To use this application there are only a few simple steps.
 6. Bam your done, now enjoy talking to yourself! :)
 
 ### Screen Shots
-![ChattyApp]("https://github.com/TylerNRobertson/LHL-chattyapp/blob/master/chatty.png")
+![ChattyApp](https://github.com/TylerNRobertson/LHL-chattyapp/blob/master/chatty.png "ChattyApp")
